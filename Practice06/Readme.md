@@ -25,7 +25,7 @@
 `Please fill up your source`
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
 
-![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/practice_06_2.JPG)
+![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice_06_1.JPG)
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_2.png)
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_3.png)
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_4.png)
