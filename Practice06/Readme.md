@@ -1,4 +1,4 @@
-# Lab 06
+﻿# Lab 06
 ## 실습 내용
 ### **7 – Segment Display Decoder (개별)**
 #### **Submodule 1** : 0~9의 값을 갖는 4bit 입력 신호를 받아 7bit FND  segment  값 출력
@@ -13,15 +13,22 @@
   ```
    > Q1 - 고정 LED (왼쪽 4개) AAAA 출력
    >  : `AA_AA_00`, `AA_AA_01`, `AA_AA_02`, … 순으로 LED 변경
-`Please fill up your source`
+```verilog wire  [41:0] six_digit_seg; 
+ assign       six_digit_seg = { 4{7'b1110111}, seg_left, seg_right }
+  ```
 > Q2 - 고정 LED 없이 2개의 LED 단위로 1초 Counter 값 표시 : `00_00_00`, `01_01_01`, `02_02_02`, … 순으로 LED 변경
-`Please fill up your source`
+ ```verilog wire  [41:0] six_digit_seg; 
+ assign       six_digit_seg = { 3{seg_left, seg_right} }
+  ```
 ## 결과 
 ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
 `Please fill up your source`
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
 
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/practice_06_2.JPG)
+![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_2.png)
+![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_3.png)
+![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_4.png)
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTk1MTQxNjE5M119
 -->
