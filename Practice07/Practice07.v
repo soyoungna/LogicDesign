@@ -306,7 +306,7 @@ debounce	u2_debounce(
 		.clk		( clk_100hz	));
 
 reg		o_mode			;
-always @(posedge i_sw0 or negedge rst_n) begin
+always @(posedge sw0 or negedge rst_n) begin
 	if(rst_n == 1'b0) begin
 		o_mode <= MODE_CLOCK;
 	end else begin
@@ -315,7 +315,7 @@ always @(posedge i_sw0 or negedge rst_n) begin
 end
 
 reg		o_position		;
-always @(posedge i_sw1 or negedge rst_n) begin
+always @(posedge sw1 or negedge rst_n) begin
 	if(rst_n == 1'b0) begin
 		o_position <= POS_SEC;
 	end else begin
@@ -341,12 +341,12 @@ always @(*) begin
 		MODE_SETUP : begin
 			case(o_position)
 				POS_SEC : begin
-					o_sec_clk = ~i_sw2;
+					o_sec_clk = ~sw2;
 					o_min_clk = 1'b0;
 				end
 				POS_MIN : begin
 					o_sec_clk = 1'b0;
-					o_min_clk = ~i_sw2;
+					o_min_clk = ~sw2;
 				end
 			endcase
 		end
