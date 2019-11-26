@@ -30,5 +30,5 @@
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_3.png)
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice06/Practice06_4.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTQxNjE5M119
+eyJoaXN0b3J5IjpbNzE5NTA1NDk0LDE5NTE0MTYxOTNdfQ==
 -->
