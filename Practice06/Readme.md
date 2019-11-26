@@ -1,4 +1,4 @@
-﻿
+
 #Lab 9
 ##실습 내용
 ###리모컨 송신 신호 
@@ -14,5 +14,6 @@ Top Module : 이전 코드들을 활용하여 ir_rx 모듈과합쳐 주기
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice09/리모컨.JPG
 )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjI3MzkyMiwxOTUxNDE2MTkzXX0=
+eyJoaXN0b3J5IjpbLTkyNDMxNDEzOSwxMjEyMjczOTIyLDE5NT
+E0MTYxOTNdfQ==
 -->
