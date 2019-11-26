@@ -14,5 +14,5 @@ Top Module : 이전 코드들을 활용하여 ir_rx 모듈과합쳐 주기
 ![](https://github.com/soyoungna/LogicDesign/blob/master/Practice09/리모컨.JPG
 )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDMxNDEzOSwxMjEyMjczOTIyXX0=
+eyJoaXN0b3J5IjpbLTkyNDMxNDEzOV19
 -->
